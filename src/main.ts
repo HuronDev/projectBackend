@@ -1,5 +1,5 @@
 import express from "express";
-import { config } from "./config/config";
+import { config } from "./shared/config/config";
 import userRoutes from "./routes/userRoutes";
 class Server {
   app = express();
