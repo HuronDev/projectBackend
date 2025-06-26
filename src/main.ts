@@ -11,7 +11,7 @@ class Server {
   }
    private initializeRoutes() {
     this.app.get('/', (req, res) => {
-      res.send('Hello World from Detroit!');
+      res.send('Hello World from Detroit-Huasimpamba!');
     });
 
     this.app.use('/api', userRoutes);
